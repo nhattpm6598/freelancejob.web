@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\freelancejob.data\freelancejob.data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Dtos\" />
+    <Folder Include="Models\Responses\" />
+    <Folder Include="Models\Requests\" />
+  </ItemGroup>
+
+</Project>

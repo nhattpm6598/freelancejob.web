@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "freelancejob.api", "freelancejob.api\freelancejob.api.csproj", "{95CF69FA-D900-457B-925D-0FFF413087E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "freelancejob.api", "freelancejob.api\freelancejob.api.csproj", "{95CF69FA-D900-457B-925D-0FFF413087E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "freelancejob.data", "freelancejob.data\freelancejob.data.csproj", "{15469885-8A96-4AD8-BCD9-CA9BCA812F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "freelancejob.business", "freelancejob.business\freelancejob.business.csproj", "{01CCFCE7-BA5D-4021-9282-6810446A0A3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{95CF69FA-D900-457B-925D-0FFF413087E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CF69FA-D900-457B-925D-0FFF413087E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CF69FA-D900-457B-925D-0FFF413087E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15469885-8A96-4AD8-BCD9-CA9BCA812F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15469885-8A96-4AD8-BCD9-CA9BCA812F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15469885-8A96-4AD8-BCD9-CA9BCA812F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15469885-8A96-4AD8-BCD9-CA9BCA812F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CCFCE7-BA5D-4021-9282-6810446A0A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CCFCE7-BA5D-4021-9282-6810446A0A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CCFCE7-BA5D-4021-9282-6810446A0A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CCFCE7-BA5D-4021-9282-6810446A0A3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

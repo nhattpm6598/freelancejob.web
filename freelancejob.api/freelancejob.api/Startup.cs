@@ -32,6 +32,7 @@ namespace freelancejob.api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "freelancejob.api", Version = "v1" });
             });
+            services.AddService(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
