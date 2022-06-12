@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "freelancejob.api", "freelancejob.api\freelancejob.api.csproj", "{95CF69FA-D900-457B-925D-0FFF413087E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "freelancejob.data", "freelancejob.data\freelancejob.data.csproj", "{15469885-8A96-4AD8-BCD9-CA9BCA812F18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "freelancejob.data", "freelancejob.data\freelancejob.data.csproj", "{15469885-8A96-4AD8-BCD9-CA9BCA812F18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "freelancejob.business", "freelancejob.business\freelancejob.business.csproj", "{01CCFCE7-BA5D-4021-9282-6810446A0A3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "freelancejob.business", "freelancejob.business\freelancejob.business.csproj", "{01CCFCE7-BA5D-4021-9282-6810446A0A3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

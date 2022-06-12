@@ -1,17 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\freelancejob.data\freelancejob.data.csproj" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Dtos\" />
-    <Folder Include="Models\Responses\" />
-    <Folder Include="Models\Requests\" />
+    <ProjectReference Include="..\freelancejob.data\freelancejob.data.csproj" />
   </ItemGroup>
 
 </Project>

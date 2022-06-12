@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace freelancejob.business.Services.Abstractions
+namespace freelancejob.authentication.Handler
 {
-    public interface IUserSkillService
+    public class BasicAuthenticationHandler
     {
+
     }
 }

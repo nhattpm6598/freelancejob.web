@@ -1,7 +1,11 @@
-﻿using freelancejob.business.Services;
-using freelancejob.business.Services.Abstractions;
+﻿using freelancejob.business.Options;
+using freelancejob.business.Services;
+using freelancejob.business.Services.LoginService;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
 
 [assembly: CLSCompliant(false)]
 namespace Microsoft.Extensions.DependencyInjection
@@ -13,16 +17,13 @@ namespace Microsoft.Extensions.DependencyInjection
         /// </summary>
         /// <param name="services"></param>
         /// <returns></returns>
-        public static IServiceCollection AddBusiness(this IServiceCollection services)
+        public static IServiceCollection AddBusiness(
+            this IServiceCollection services,
+            IConfiguration configuration)
         {
-            services.AddTransient<ICategoryService, CategoryService>()
-                .AddTransient<IConvenantService, ConvenantService>()
-                .AddTransient<IJobRequestService, JobRequestService>()
-                .AddTransient<IJobService, JobService>()
-                .AddTransient<IReportService, ReportService>()
-                .AddTransient<ISkillExpertiseService, SkillExpertiseService>()
-                .AddTransient<IUserService, UserService>()
-                .AddTransient<IUserSkillService, UserSkillService>();
+            services.Configure<JwtOptions>(configuration.GetSection("Jwt"));
+
+            services.AddTransient<ILoginService, LoginService>();
 
             return services;
 

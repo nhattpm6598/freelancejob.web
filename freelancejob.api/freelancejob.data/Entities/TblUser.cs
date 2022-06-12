@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-#nullable disable
-
 namespace freelancejob.data.Entities
 {
     public partial class TblUser
@@ -16,7 +14,7 @@ namespace freelancejob.data.Entities
         public string ImageUrl { get; set; }
         public string PhoneNumber { get; set; }
         public string Major { get; set; }
-        public int? Role { get; set; }
+        public int Role { get; set; }
         public string SkillExpertise { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }

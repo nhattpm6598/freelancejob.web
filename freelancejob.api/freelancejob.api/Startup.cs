@@ -28,10 +28,11 @@ namespace freelancejob.api
         {
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
+            /*services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "freelancejob.api", Version = "v1" });
-            });
+            });*/
+            services.AddSwagger(Configuration);
             services.AddService(Configuration);
         }
 
@@ -41,13 +42,16 @@ namespace freelancejob.api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "freelancejob.api v1"));
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "freelancejob.api v1"));
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
@@ -55,6 +59,11 @@ namespace freelancejob.api
             {
                 endpoints.MapControllers();
             });
+
+            // app.UseAuthentication();
+            // Swagger Configuration in API  
+            /*app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "freelancejob.api v1"));*/
         }
     }
 }

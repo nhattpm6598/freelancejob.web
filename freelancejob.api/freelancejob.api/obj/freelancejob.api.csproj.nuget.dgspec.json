@@ -1,35 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj": {}
+    "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj": {}
   },
   "projects": {
-    "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj": {
+    "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj",
+        "projectUniqueName": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj",
         "projectName": "freelancejob.api",
-        "projectPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj",
+        "projectPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.api\\freelancejob.api.csproj",
         "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
-        "outputPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.api\\obj\\",
+        "outputPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj": {
-                "projectPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj"
+              "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj": {
+                "projectPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj"
               }
             }
           }
@@ -41,18 +45,22 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -77,32 +85,36 @@
         }
       }
     },
-    "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj": {
+    "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj",
+        "projectUniqueName": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj",
         "projectName": "freelancejob.business",
-        "projectPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj",
+        "projectPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.business\\freelancejob.business.csproj",
         "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
-        "outputPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.business\\obj\\",
+        "outputPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj": {
-                "projectPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj"
+              "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj": {
+                "projectPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj"
               }
             }
           }
@@ -114,8 +126,14 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -135,29 +153,33 @@
         }
       }
     },
-    "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj": {
+    "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj",
+        "projectUniqueName": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj",
         "projectName": "freelancejob.data",
-        "projectPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj",
+        "projectPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.data\\freelancejob.data.csproj",
         "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
-        "outputPath": "D:\\student\\freelancejob.web\\freelancejob.api\\freelancejob.data\\obj\\",
+        "outputPath": "D:\\student\\1\\freelancejob.web\\freelancejob.api\\freelancejob.data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -168,28 +190,32 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

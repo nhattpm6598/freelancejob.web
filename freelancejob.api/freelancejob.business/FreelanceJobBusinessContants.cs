@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace freelancejob.business.Services.Abstractions
+namespace freelancejob.business
 {
-    public interface ICategoryService
+    public static class FreelanceJobBusinessContants
     {
     }
 }

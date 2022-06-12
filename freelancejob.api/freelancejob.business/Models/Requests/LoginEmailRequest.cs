@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace freelancejob.business.Services.Abstractions
+namespace freelancejob.business.Models.Requests
 {
-    public interface IJobRequestService
+    internal class LoginEmailRequest
     {
     }
 }
